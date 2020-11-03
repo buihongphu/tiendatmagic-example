@@ -67,7 +67,7 @@ body,html {
 .buttonn {
     display: flex;
     justify-content: center;
-    ;
+    
 }
 .buttonn input:nth-child(1) {
     background-color: black;
@@ -79,6 +79,7 @@ body,html {
     font-size: 10px;
     margin-right:10px;
     opacity: 0.9;
+    letter-spacing: 3px;
 }
 
 .buttonn input:nth-child(2) {
@@ -135,11 +136,15 @@ body,html {
     vertical-align: middle;
   }
 
+  .footer {
+      width: 100%;
+      height: 300px;
+  }
 .footer1 {
     display: flex;
     flex: 1;
     width: 100%;
-    height: 400px;
+    height: 100%;
 
 }
 
@@ -152,12 +157,12 @@ body,html {
 
 .foote1 {
     background-color: #fdcd07;
-
+    width: 50%;
 }
 
-.foote2 {
-    background-image: url('../images/Back-shot_700x.jpg');
-    background-size: cover;
+.foote2 img{
+    width: 100%;
+    height: 100%;
 }
 .footer-up span, .footer-down span {
     font-weight: bold;
