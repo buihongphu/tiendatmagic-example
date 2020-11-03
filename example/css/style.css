@@ -17,7 +17,7 @@ body,html {
     background-color: black;
 }
 
-.box {
+.header1 {
     width: 50%;
     height: 20vh;
     background-color: yellow;
@@ -73,11 +73,21 @@ body,html {
     color: black;
     border-radius: 50%;
     background-color: yellow;
-    font-size: 8px;
-    padding: 3px;
+    font-size: 10px;
+    padding: 5px;
     margin-top: 5px;
     margin-left: 5px;
-    width: 15px;
+    width: 20px;
 }
+
+.content1 {
+    height:  10vh;
+    background-color: yellow;
+    font-size: 14px;
+    line-height: 10vh;
+
+    text-align: center;
+}
+
 
 
