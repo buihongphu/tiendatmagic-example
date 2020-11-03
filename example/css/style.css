@@ -114,7 +114,8 @@ body,html {
 }
 
 .foote:nth-child(2) {
-    background-color: yellow;
+   background-image: url('../images/Back-shot_700x.jpg');
+background-size: cover;
 }
 
 
