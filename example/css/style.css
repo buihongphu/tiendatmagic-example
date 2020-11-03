@@ -73,11 +73,13 @@ body,html {
     color: black;
     border-radius: 50%;
     background-color: yellow;
-    font-size: 10px;
+    font-size: 8px;
     padding: 5px;
     margin-top: 5px;
     margin-left: 5px;
-    width: 20px;
+  
+    width: 16px;
+    height: 18px;
 }
 
 .content1 {
@@ -85,9 +87,34 @@ body,html {
     background-color: yellow;
     font-size: 14px;
     line-height: 10vh;
-
     text-align: center;
 }
 
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content2 img {
+    width: 200px;
+}
+
+.footer1 {
+    display: flex;
+    flex: 1;
+}
+
+.footer1 .foote {
+    width: 50vw;
+    height: 40vh;
+}
+
+.foote:nth-child(1) {
+    background-color: yellow;
+}
+
+.foote:nth-child(2) {
+    background-color: yellow;
+}
 
 
