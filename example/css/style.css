@@ -5,6 +5,21 @@
     font-family: 'Bison';
 }
 
+::-webkit-input-placeholder { /* Edge */
+    color: white;
+   
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer */
+    color: white;
+  }
+  
+  ::placeholder {
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
 body,html {
     width: 100%;
     height: 100%;
@@ -20,22 +35,23 @@ body,html {
 .header1 {
     width: 50%;
     height: 150px;
-    background-color: yellow;
+    background-color: #fdcd07;
  position: relative;
     top: 0;
     left:  50%;
 }
 
 .header2 h1 {
-    color: yellow;
+    color: #fdcd07;
     text-align: center;
     font-size: 30px;
+    letter-spacing: 4px;
 }
 
 .header2 span {
-    color: yellow;
+    color: #fdcd07;
     display: flex;
-    font-size: 7px;
+    font-size: 10px;
     justify-content: center;
     margin-bottom: 20px;
 }
@@ -57,7 +73,7 @@ body,html {
 }
 
 .buttonn input:nth-child(2) {
-    background-color: yellow;
+    background-color: #fdcd07;
     border: 1px solid black;
     border-radius: 5px;
     width: 30%;
@@ -73,7 +89,7 @@ body,html {
 .social a {
     color: black;
     border-radius: 50%;
-    background-color: yellow;
+    background-color: #fdcd07;
     font-size: 8px;
     padding: 5px;
     margin-top: 5px;
@@ -85,7 +101,7 @@ body,html {
 
 .content1 {
     height:  60px;
-    background-color: yellow;
+    background-color: #fdcd07;
     font-size: 14px;
     line-height: 60px;
     text-align: center;
@@ -106,19 +122,19 @@ body,html {
     display: flex;
     flex: 1;
     width: 100%;
-    height: 300px;
+    height: 400px;
 
 }
 
 .footer1 .foote1, .footer1 .foote2 {
-    width: 50vw;
+    width: 50%;
     height: 100%;
     margin: 2px;
 
 }
 
 .foote1 {
-    background-color: yellow;
+    background-color: #fdcd07;
 
 }
 
